@@ -1,6 +1,6 @@
 Package.describe({
   name: 'clinical:schema-hydrator',
-  version: '0.1.0',
+  version: '0.1.1',
   summary: 'Hydrates/dehydrates a SimpleSchema into something that can be stored in Mongo.',
   git: 'http://github.com/clinical-meteor/clinical-schema-hydrator',
   documentation: 'README.md'
