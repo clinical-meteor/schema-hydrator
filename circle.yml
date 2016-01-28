@@ -13,12 +13,6 @@ machine:
     NPM_PREFIX: /home/ubuntu/nvm/v0.10.33
 
 
-## Customize checkout
-checkout:
- post:
-   #- git submodule sync
-   #- git submodule update --init --recursive # use submodules
-
 #general:
 #  build_dir: helloworld
 
@@ -47,16 +41,3 @@ test:
     - sleep 80
   override:
     - cd helloworld && starrynight run-tests --type package-verification
-
-## Customize deployment commands
-#deployment:
-#  production:
-#    branch: master
-#    commands:
-#      - printf "<Meteor username>\n<Meteor password>\n" | meteor deploy circlecivelocity.meteor.com
-
-## Custom notifications
-#notify:
-  #webhooks:
-    # A list of hashes representing hooks. Only the url field is supported.
-    #- url: https://someurl.com/hooks/circle
