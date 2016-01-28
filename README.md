@@ -13,4 +13,4 @@ meteor add clinical:schema-hydrator
 ===========================
 #### Licensing  
 
-MIT.  Use as you will.
+![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)
