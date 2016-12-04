@@ -36,9 +36,9 @@ dependencies:
     - cd helloworld
     - cd helloworld && ls -la
     - cd helloworld/client && rm main.*
-    - cd helloworld && meteor add anti:gagarin@0.4.12 session meteor-platform clinical:theming clinical:default-theme clinical:router clinical:router-default-config clinical:active-layout clinical:active-layout-reset clinical:active-layout-pagescreen-config
+    - cd helloworld && meteor add anti:gagarin@0.4.12 session meteor-platform
     - cd helloworld && git clone http://github.com/clinical-meteor/schema-hydrator packages/schema-hydrator
-    - cd helloworld && meteor add aldeed:simple-schema clinical:schema-hydrator clinical:autoform
+    - cd helloworld && meteor add aldeed:simple-schema clinical:schema-hydrator
     - cd helloworld && starrynight autoconfig
     - cd helloworld && meteor npm install
 
